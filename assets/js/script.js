@@ -3,18 +3,17 @@ $(document).ready(function () {
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 4,
-    autoplay: true,
     speed: 7000,
     delay: 3000,
     dots: true,
   });
 });
 
-// Navbar Click start
-$(".navbar_click_icon .icon .openSidebar").click(function() {
-  document.body.classList.add("active");
-});
+// // Navbar Click start
+// $(".navbar_click_icon .icon .openSidebar").click(function() {
+//   document.body.classList.add("active");
+// });
 
-$("header .sidebar .close").click(function() {
-  document.body.classList.remove("active");
-});
+// $("header .sidebar .close").click(function() {
+//   document.body.classList.remove("active");
+// });

@@ -1,0 +1,25 @@
+@import "../utilities/_font-family.css";
+@import "../utilities/_specials.css";
+@import "../base/_grid.css";
+
+#brounds a.all {
+    color: var(--primary-color);
+}
+
+#brounds a.all span {
+    display: inline-block;
+    margin-right: 11px;
+}
+
+#brounds .brounds .col-2 {
+    margin-right: 34px;
+    margin-left: 34px;
+}
+
+#brounds .brounds .col-2:first-child {
+    margin-left: 0px;
+}
+
+#brounds .brounds .col-2:last-child {
+    margin-right: 0px;
+}

@@ -9,229 +9,226 @@
     <link rel="stylesheet" href="./assets/css/slick/slick.css">
     <link rel="stylesheet" href="./assets/css/slick/slick-theme.css">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
+
 </head>
 
 <body>
 
-    <!-- Start Header Part -->
-    <header>
-        <div class="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="img logo">
-                            <a href="#">
-                                <img src="./assets/img/main-logo.png" alt="Main Logo">
+    <!-- Start Header Section -->
+    <header class="header">
+        <div class="container header">
+            <div class="row align-center justify-content-between">
+                <div class="column">
+                    <a href="/" class="logo" title="logo" aria-label="logo">
+                        <img src="./assets/img/logo.svg" alt="Logo">
+                    </a>
+                </div>
+                <div class="column">
+                    <div class="row align-center">
+                        <div class="column">
+                            <nav class="navigation">
+                                <ul class="navigation-list">
+                                    <li class="navigation-item">
+                                        <a href="#" class="navigation-link">
+                                            Haqqımızda
+                                        </a>
+                                    </li>
+                                    <li class="navigation-item">
+                                        <a href="#" class="navigation-link">
+                                            Xidmətlər
+                                        </a>
+                                    </li>
+                                    <li class="navigation-item">
+                                        <a href="#" class="navigation-link">
+                                            Kampaniyalar
+                                        </a>
+                                    </li>
+                                    <li class="navigation-item">
+                                        <a href="#" class="navigation-link">
+                                            Partnyorlarımız
+                                        </a>
+                                    </li>
+                                    <li class="navigation-item">
+                                        <a href="#" class="navigation-link">
+                                            <img src="./assets/icon/search.svg" alt="Search">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="column">
+                            <a href="#" class="button">
+                                <span>Kredit sifarişi</span>
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-7 col-md-9">
-                        <nav>
-                            <ul class="d-flex">
-                                <li><a href="#">Haqqımızda</a></li>
-                                <li><a href="#">Xidmətlər</a></li>
-                                <li><a href="#">Kampaniyalar</a></li>
-                                <li><a href="#">Partnyorlarımız</a></li>
-                                <li><a href="#"><img src="./assets/img/search-normal.png" alt="Search"></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-lg-10 col-md-9 col-6 d-block d-lg-none">
-                        <div class="navbar_click_icon">
-                            <div class="icon">
-                                <i class="fas fa-bars openSidebar"></i>
-                            </div>
-                        </div>
-                        <div class="sidebar">
-                            <div class="close">
-                                <i class="fas fa-times"></i>
-                            </div>
-                            <div class="sidebar_list">
-                                <ul>
-                                    <li><a href="#">Haqqımızda</a></li>
-                                    <li><a href="#">Xidmətlər</a></li>
-                                    <li><a href="#">Kampaniyalar</a></li>
-                                    <li><a href="#">Partnyorlarımız</a></li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-6">
-                        <div class="button">
-                            <a href="#" class="main-btn">Kredit sifarişi</a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="slider">
-            <div class="container">
-                <div class="row">
-                    <div class="col-5">
-                        <div class="content h-100 d-flex flex-column justify-content-center">
-                            <h1><span>Sərfəli</span> Kredit</h1>
-                            <p>“City Finance” uzun müddətli və aşağı faiz dərəcəli kredit təklifləri ilə bərabər rahat
-                                ödəmə üsulları da təklif edir.</p>
-                            <a href="#" class="btn main-btn">Ətraflı baxın</a>
-                        </div>
-                    </div>
-                    <div class="col-7">
-                        <div class="img">
-                            <img src="./assets/img/slider-img.png" alt="Slider img">
-                        </div>
-                    </div>
+
+        <!-- Start Hero Section -->
+        <section id="hero-section">
+            <div class="container relative">
+                <div class="hero-content">
+                    <h1><span>Sərfəli</span> Kredit</h1>
+                    <p>“City Finance” uzun müddətli və aşağı faiz dərəcəli kredit təklifləri ilə bərabər rahat ödəmə
+                        üsulları da təklif edir.</p>
+
+                    <a href="#" class="button">
+                        <span>Ətraflı baxın</span>
+                    </a>
+                </div>
+                <div class="hero-image absolute">
+                    <img src="./assets/img/slider-img.svg" alt="Slider image">
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- End Hero Section -->
+
     </header>
-    <!-- End Header Part -->
+    <!-- End Header Section -->
 
     <main>
         <!-- Start Services Part -->
         <section id="services">
             <div class="container">
-                <div class="row">
-                    <h2>Xidmətlərimiz</h2>
-                </div>
-                <div class="services multiple-items">
-                    <div class="card service">
-                        <div class="card-title mb-0 w-100 mx-auto position-relative first-card">
-                            <img src="./assets/img/smart-car.png" alt="Smart Car" class="position-absolute smart-car">
-                            <img src="./assets/img/car.png" alt="Card" class="position-absolute car">
+                <h2>Xidmətlərimiz</h2>
+                <div class="services multiple-items relative">
+                    <div class="service">
+                        <div class="service-image first-section relative">
+                            <img src="./assets/img/service-secondary-img-1.svg" class="secondary-img">
+                            <img src="./assets/img/service-main-img-1.svg" class="main-img main-img-1 absolute"
+                                alt="Service image 1">
                         </div>
-                        <div class="card-body">
+                        <div class="service-content">
                             <h6>Avtokredit</h6>
                             <div class="d-flex justify-content-between">
-                                <p>Müddət: <span>1-3 il</span></p>
-                                <p>Valyuta: <span>₼</span></p>
+                                <p class="body-medium-2"><span>Müddət:</span> 1-3 il</p>
+                                <p class="body-medium-2"><span>Valyuta:</span> ₼</p>
                             </div>
                             <div>
-                                <a href="#" class="btn main-btn order">Sifariş et</a>
+                                <a href="#" class="button order d-block w-100 text-center">Sifariş et</a>
                             </div>
                         </div>
                     </div>
-                    <div class="card service">
-                        <div class="card-title mb-0 w-100 mx-auto position-relative second-card">
-                            <img src="./assets/img/smart-car (1).png" alt="Smart Car"
-                                class="position-absolute smart-car">
-                            <img src="./assets/img/gold 1.png" alt="Card" class="position-absolute gold">
+                    <div class="service">
+                        <div class="service-image second-section relative">
+                            <img src="./assets/img/service-secondary-img-2.svg" class="secondary-img">
+                            <img src="./assets/img/service-main-img-2.svg" class="main-img main-img-2 absolute"
+                                alt="Service image 2">
                         </div>
-                        <div class="card-body">
-                            <h6>Avtokredit</h6>
+                        <div class="service-content">
+                            <h6>Mikrokredit</h6>
                             <div class="d-flex justify-content-between">
-                                <p>Müddət: <span>1-3 il</span></p>
-                                <p>Valyuta: <span>₼</span></p>
+                                <p class="body-medium-2"><span>Müddət:</span> 1-3 il</p>
+                                <p class="body-medium-2"><span>Valyuta:</span> ₼</p>
                             </div>
                             <div>
-                                <a href="#" class="btn main-btn order">Sifariş et</a>
+                                <a href="#" class="button order d-block w-100 text-center">Sifariş et</a>
                             </div>
                         </div>
                     </div>
-                    <div class="card service">
-                        <div class="card-title mb-0 w-100 mx-auto position-relative third-card">
-                            <img src="./assets/img/smart-car (2).png" alt="Smart Car"
-                                class="position-absolute smart-car">
-                            <img src="./assets/img/slider manaat 1.png" alt="Card" class="position-absolute manaat">
+                    <div class="service">
+                        <div class="service-image third-section relative">
+                            <img src="./assets/img/service-secondary-img-3.svg" class="secondary-img">
+                            <img src="./assets/img/service-main-img-3.svg" class="main-img main-img-3 absolute"
+                                alt="Service image 3">
                         </div>
-                        <div class="card-body">
-                            <h6>Avtokredit</h6>
+                        <div class="service-content">
+                            <h6>İstehlak krediti</h6>
                             <div class="d-flex justify-content-between">
-                                <p>Müddət: <span>1-3 il</span></p>
-                                <p>Valyuta: <span>₼</span></p>
+                                <p class="body-medium-2"><span>Müddət:</span> 1-3 il</p>
+                                <p class="body-medium-2"><span>Valyuta:</span> ₼</p>
                             </div>
                             <div>
-                                <a href="#" class="btn main-btn order">Sifariş et</a>
+                                <a href="#" class="button order d-block w-100 text-center">Sifariş et</a>
                             </div>
                         </div>
                     </div>
-                    <div class="card service">
-                        <div class="card-title mb-0 w-100 mx-auto position-relative second-card">
-                            <img src="./assets/img/smart-car (1).png" alt="Smart Car"
-                                class="position-absolute smart-car">
-                            <img src="./assets/img/feature-gold-bars 1.png" alt="Card"
-                                class="position-absolute gold-bar">
+                    <div class="service">
+                        <div class="service-image fourth-section relative">
+                            <img src="./assets/img/service-secondary-img-2.svg" class="secondary-img">
+                            <img src="./assets/img/service-main-img-4.svg" class="main-img main-img-4 absolute"
+                                alt="Service image 4">
                         </div>
-                        <div class="card-body">
-                            <h6>Avtokredit</h6>
+                        <div class="service-content">
+                            <h6>Lombard krediti</h6>
                             <div class="d-flex justify-content-between">
-                                <p>Müddət: <span>1-3 il</span></p>
-                                <p>Valyuta: <span>₼</span></p>
+                                <p class="body-medium-2"><span>Müddət:</span> 1-3 il</p>
+                                <p class="body-medium-2"><span>Valyuta:</span> ₼</p>
                             </div>
                             <div>
-                                <a href="#" class="btn main-btn order">Sifariş et</a>
+                                <a href="#" class="button order d-block w-100 text-center">Sifariş et</a>
                             </div>
                         </div>
                     </div>
-                    <div class="card service">
-                        <div class="card-title mb-0 w-100 mx-auto position-relative third-card">
-                            <img src="./assets/img/smart-car.png" alt="Smart Car" class="position-absolute smart-car">
-                            <img src="./assets/img/car.png" alt="Card" class="position-absolute car">
+                    <div class="service">
+                        <div class="service-image first-section relative">
+                            <img src="./assets/img/service-secondary-img-1.svg" class="secondary-img">
+                            <img src="./assets/img/service-main-img-1.svg" class="main-img main-img-1 absolute"
+                                alt="Service image 1">
                         </div>
-                        <div class="card-body">
+                        <div class="service-content">
                             <h6>Avtokredit</h6>
                             <div class="d-flex justify-content-between">
-                                <p>Müddət: <span>1-3 il</span></p>
-                                <p>Valyuta: <span>₼</span></p>
+                                <p class="body-medium-2"><span>Müddət:</span> 1-3 il</p>
+                                <p class="body-medium-2"><span>Valyuta:</span> ₼</p>
                             </div>
                             <div>
-                                <a href="#" class="btn main-btn order">Sifariş et</a>
+                                <a href="#" class="button order d-block w-100 text-center">Sifariş et</a>
                             </div>
                         </div>
                     </div>
-                    <div class="card service">
-                        <div class="card-title mb-0 w-100 mx-auto position-relative third-card">
-                            <img src="./assets/img/smart-car (2).png" alt="Smart Car"
-                                class="position-absolute smart-car">
-                            <img src="./assets/img/slider manaat 1.png" alt="Card" class="position-absolute manaat">
+                    <div class="service">
+                        <div class="service-image second-section relative">
+                            <img src="./assets/img/service-secondary-img-2.svg" class="secondary-img">
+                            <img src="./assets/img/service-main-img-2.svg" class="main-img main-img-2 absolute"
+                                alt="Service image 2">
                         </div>
-                        <div class="card-body">
-                            <h6>Avtokredit</h6>
+                        <div class="service-content">
+                            <h6>Mikrokredit</h6>
                             <div class="d-flex justify-content-between">
-                                <p>Müddət: <span>1-3 il</span></p>
-                                <p>Valyuta: <span>₼</span></p>
+                                <p class="body-medium-2"><span>Müddət:</span> 1-3 il</p>
+                                <p class="body-medium-2"><span>Valyuta:</span> ₼</p>
                             </div>
                             <div>
-                                <a href="#" class="btn main-btn order">Sifariş et</a>
+                                <a href="#" class="button order d-block w-100 text-center">Sifariş et</a>
                             </div>
                         </div>
                     </div>
-                    <div class="card service">
-                        <div class="card-title mb-0 w-100 mx-auto position-relative second-card">
-                            <img src="./assets/img/smart-car (1).png" alt="Smart Car"
-                                class="position-absolute smart-car">
-                            <img src="./assets/img/feature-gold-bars 1.png" alt="Card"
-                                class="position-absolute gold-bar">
+                    <div class="service">
+                        <div class="service-image third-section relative">
+                            <img src="./assets/img/service-secondary-img-3.svg" class="secondary-img">
+                            <img src="./assets/img/service-main-img-3.svg" class="main-img main-img-3 absolute"
+                                alt="Service image 3">
                         </div>
-                        <div class="card-body">
-                            <h6>Avtokredit</h6>
+                        <div class="service-content">
+                            <h6>İstehlak krediti</h6>
                             <div class="d-flex justify-content-between">
-                                <p>Müddət: <span>1-3 il</span></p>
-                                <p>Valyuta: <span>₼</span></p>
+                                <p class="body-medium-2"><span>Müddət:</span> 1-3 il</p>
+                                <p class="body-medium-2"><span>Valyuta:</span> ₼</p>
                             </div>
                             <div>
-                                <a href="#" class="btn main-btn order">Sifariş et</a>
+                                <a href="#" class="button order d-block w-100 text-center">Sifariş et</a>
                             </div>
                         </div>
                     </div>
-                    <div class="card service">
-                        <div class="card-title mb-0 w-100 mx-auto position-relative third-card">
-                            <img src="./assets/img/smart-car.png" alt="Smart Car" class="position-absolute smart-car">
-                            <img src="./assets/img/car.png" alt="Card" class="position-absolute car">
+                    <div class="service">
+                        <div class="service-image fourth-section relative">
+                            <img src="./assets/img/service-secondary-img-2.svg" class="secondary-img">
+                            <img src="./assets/img/service-main-img-4.svg" class="main-img main-img-4 absolute"
+                                alt="Service image 4">
                         </div>
-                        <div class="card-body">
-                            <h6>Avtokredit</h6>
+                        <div class="service-content">
+                            <h6>Lombard krediti</h6>
                             <div class="d-flex justify-content-between">
-                                <p>Müddət: <span>1-3 il</span></p>
-                                <p>Valyuta: <span>₼</span></p>
+                                <p class="body-medium-2"><span>Müddət:</span> 1-3 il</p>
+                                <p class="body-medium-2"><span>Valyuta:</span> ₼</p>
                             </div>
                             <div>
-                                <a href="#" class="btn main-btn order">Sifariş et</a>
+                                <a href="#" class="button order d-block w-100 text-center">Sifariş et</a>
                             </div>
                         </div>
                     </div>
@@ -243,54 +240,58 @@
         <!-- Start Bround Part -->
         <section id="brounds">
             <div class="container">
-                <div class="row">
-                    <div class="title d-flex justify-content-between">
+                <div class="row justify-content-between">
+                    <div class="column">
                         <h2>Onlar bizə etibar edir</h2>
-                        <a href="#">Hamısı <img src="./assets/img/arrow-right.png" alt="Arrow Right" style="width: 20px;
-                            height: 20px;"></a>
+                    </div>
+                    <div class="column">
+                        <a href="#" class="all"><span>Hamısı</span>
+                            <img src="./assets/img/arrow-right.svg" alt="Arrow Right" style="width: 20px;
+                                height: 20px; vertical-align: middle;">
+                        </a>
                     </div>
                 </div>
                 <div class="brounds">
-                    <div class="row">
+                    <div class="row w-100 m-0">
                         <div class="col-2">
                             <div class="img">
                                 <a href="#">
-                                    <img src="./assets/img/Card.png" alt="Bround 1">
+                                    <img src="./assets/img/brand-1.svg" alt="Bround 1">
                                 </a>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="img">
                                 <a href="#">
-                                    <img src="./assets/img/Card (1).png" alt="Bround 2">
+                                    <img src="./assets/img/brand-2.svg" alt="Bround 2">
                                 </a>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="img">
                                 <a href="#">
-                                    <img src="./assets/img/Card (2).png" alt="Bround 3">
+                                    <img src="./assets/img/brand-3.svg" alt="Bround 3">
                                 </a>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="img">
                                 <a href="#">
-                                    <img src="./assets/img/Card (3).png" alt="Bround 4">
+                                    <img src="./assets/img/brand-4.svg" alt="Bround 4">
                                 </a>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="img">
                                 <a href="#">
-                                    <img src="./assets/img/Card (4).png" alt="Bround 5">
+                                    <img src="./assets/img/brand-5.svg" alt="Bround 5">
                                 </a>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="img">
                                 <a href="#">
-                                    <img src="./assets/img/Card (5).png" alt="Bround 6">
+                                    <img src="./assets/img/brand-6.svg" alt="Bround 6">
                                 </a>
                             </div>
                         </div>
@@ -303,17 +304,15 @@
         <!-- Start For You -->
         <section id="for-you">
             <div class="container">
-                <div class="row">
-                    <h2 class="for-you">Sizin üçün faydalı</h2>
-                </div>
-                <div class="row">
+                <h2 class="for-you">Sizin üçün faydalı</h2>
+                <div class="row w-100 m-0 cards">
                     <div class="col-6">
                         <div class="box">
                             <div class="title d-flex justify-content-between">
                                 <p>Valyuta məzənnələri</p>
                                 <p><span>Yeniləndi:</span> 14.03.2022</p>
                             </div>
-                            <table class="table mb-0">
+                            <table class="table m-0 w-100">
                                 <thead>
                                     <tr>
                                         <th scope="col">Valyuta</th>
@@ -326,7 +325,7 @@
                                     <tr>
                                         <td>
                                             <div class="d-flex justify-content-center">
-                                                <img src="./assets/img/dollar.png" class="currency" alt="USD">
+                                                <img src="./assets/img/dollar-icon.svg" class="currency" alt="USD">
                                                 <p class="ms-2 mt-2">USD</p>
                                             </div>
                                         </td>
@@ -336,12 +335,12 @@
                                         <td>
                                             <p class="ms-2 mt-2 text-center">1.7025</p>
                                         </td>
-                                        <td><img src="./assets/img/arrow-top.png" alt="" class="arrow mt-2"></td>
+                                        <td><img src="./assets/img/arrow-up.svg" alt="" class="arrow mt-2"></td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <div class="d-flex justify-content-center">
-                                                <img src="./assets/img/euro.png" class="currency" alt="EUR">
+                                                <img src="./assets/img/euro-icon.svg" class="currency" alt="EUR">
                                                 <p class="ms-2 mt-2">EUR</p>
                                             </div>
                                         </td>
@@ -351,20 +350,20 @@
                                         <td>
                                             <p class="ms-2 mt-2 text-center">1.9000</p>
                                         </td>
-                                        <td><img src="./assets/img/arrow-bottom.png" alt="" class="arrow mt-2"></td>
+                                        <td><img src="./assets/img/arrow-down.svg" alt="" class="arrow mt-2"></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="box">
+                        <div class="box second">
                             <div class="title">
                                 <p>Valyuta kalkulyatoru</p>
                             </div>
                             <div class="valyuta">
                                 <form action="#" method="post">
-                                    <div class="line row mb-5">
+                                    <div class="line row w-100 m-0 justify-content-between"">
                                         <div class="col-9 p-0">
                                             <input type="text" class="form-control" id="satiram" placeholder="Satıram">
                                         </div>
@@ -379,11 +378,11 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="line row mb-3">
-                                        <div class="col-9 p-0">
+                                    <div class="line row w-100 m-0 justify-content-between">
+                                        <div>
                                             <input type="text" class="form-control" id="satiram" placeholder="Alıram">
                                         </div>
-                                        <div class="col-3 p-0">
+                                        <div>
                                             <select class="form-select" aria-label="Default select example">
                                                 <option selected>
                                                     $
@@ -404,25 +403,7 @@
         <!-- End For You -->
     </main>
 
-    <footer></footer>
-
-
     <script src="./assets/vendor/jquery/jquery.min.js"></script>
-    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <script src="./assets/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
-
 
     <!-- Slick Js -->
     <script src="./assets/js/slick/slick.js"></script>

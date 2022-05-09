@@ -1,0 +1,41 @@
+@import "../utilities/_font-family.css";
+@import "../utilities/_specials.css";
+
+/* Start Header */
+header {
+    background: linear-gradient(180deg, #e5fffa 0%, rgba(229, 255, 249, 0.262661) 83.7%, rgba(229, 255, 249, 0) 100%);
+}
+header .header.container {
+    padding: 1.25rem 0;
+}
+header .navigation-list .navigation-item .navigation-link {
+    display: block;
+    font-size: 1rem;
+    font-family: Montserrat-Medium;
+    color: var(--grey-3);
+    transition: all 0.5s;
+    margin-left: 9px;
+}
+
+header .navigation-list .navigation-item:hover .navigation-link {
+    color: var(--primary-color);
+}
+
+/* Start Media Queries */
+@media screen and (min-width: 1155px) {
+    header .navigation-list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    header .navigation-list .navigation-item {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+/* End Media Queries */
+
+/* End Header */

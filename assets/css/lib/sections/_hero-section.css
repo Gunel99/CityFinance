@@ -1,0 +1,29 @@
+@import "../utilities/_font-family.css";
+@import "../utilities/_specials.css";
+@import "../base/_grid.css";
+
+@media screen and (min-width: 1155px) {
+    #hero-section .hero-content {
+        max-width: 470px;
+        padding-top: 216px;
+        padding-bottom: 216px;
+    }
+    #hero-section .hero-content h1 {
+        margin-bottom: 30px;
+    }
+    #hero-section .hero-content p {
+        margin-bottom: 40px;
+        font-size: 1.125rem;
+        line-height: 32px;
+    }
+    #hero-section .hero-image {
+        top: 0;
+        right: -140px;
+        z-index: 0;
+    }
+}
+
+#hero-section .hero-content h1 span {
+    color: var(--primary-color);
+}
+
